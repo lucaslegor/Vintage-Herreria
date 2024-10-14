@@ -59,9 +59,6 @@ header {
     position: sticky;
 }
 
-.mobile-menu {
-    display: none;
-}
 
 .header-nav-log-name {
     display: flex;
@@ -88,9 +85,6 @@ header {
     padding: 20px;
 }
 
-.header-nav-links i {
-    display: none;
-}
 
 .header-nav-links button {
     padding: 12px;
@@ -141,6 +135,10 @@ header {
     color: white; 
     padding: 10px;
     font-size: 20px;
+}
+
+.br-option {
+    display: none;
 }
 
 .main-section-button {
@@ -384,6 +382,55 @@ header {
 
     
     
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .header-nav-log-name h2 {
+        font-size: 18px ;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .main-section-title {
+        display: flex;
+        font-size: 36px;
+        position: absolute; 
+        bottom: 60%; 
+        left: 50px; 
+    }
+
+    .main-section-p {
+        font-size: 19px;
+        display: flex;
+        position: absolute;
+        bottom: 42%;
+    }
+ 
+}
+
+@media screen and (max-width: 620px) {
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        overflow: hidden;
+        height: 300px;
+    }
+
+    .first-footer-section {
+        display: flex;
+        position: relative;
+    }
+
+    .second-footer-section {
+        display: flex;
+        position: relative;
+        bottom: 20px;
+    }
 }
 
 
