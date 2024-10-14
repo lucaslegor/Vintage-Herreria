@@ -7,3 +7,14 @@ document.querySelectorAll('.link-ref').forEach(enlace => {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.getElementById('menu-icon');
+    const menu = document.getElementById('mobile-menu');
+    
+    if (menuIcon) {
+        menuIcon.addEventListener('click', function() {
+            menu.classList.toggle('show-menu');
+        });
+    }
+});
