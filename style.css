@@ -177,7 +177,6 @@ header {
 }
 
 .section-works-img img:hover{
-    cursor: crosshair;
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
@@ -253,8 +252,12 @@ header {
     padding: 20px;
 }
 
+.second-footer-section h3 {
+    font-size: 20px;
+    color: white;
+}
+
 .second-footer-section i {
-    gap: 5px;
     color: white;
     font-size: 20px;
 }
@@ -262,6 +265,8 @@ header {
 .second-footer-section-icons {
     display: flex;
     flex-direction: row;
+    margin: 20px;
+    gap: 50px;
 }
 
 .second-footer-section span {
