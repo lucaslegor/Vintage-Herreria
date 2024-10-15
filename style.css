@@ -577,7 +577,7 @@ header {
 
     .link-wsp {
         position: fixed;
-        left: 80%;
+        left: 85%;
     }
 
     .link-wsp i {
@@ -659,7 +659,7 @@ header {
     .first-footer-section {
         display: flex;
         position: relative;
-        bottom: 12px;
+        bottom: 25px;
     }
 
     .first-footer-section h3 {
