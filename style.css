@@ -323,6 +323,14 @@ header {
     }
 }
 
+@media screen and (max-width:1000px) {
+    .link-wsp {
+        display: flex;
+        position: fixed;
+        left: 92%;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .header-nav-links button {
         display: none;
@@ -409,7 +417,7 @@ header {
         position: absolute;
         bottom: 42%;
     }
- 
+
 }
 
 @media screen and (max-width: 620px) {
@@ -432,6 +440,255 @@ header {
         bottom: 20px;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    .link-wsp {
+        position: fixed;
+        left: 88%;
+    }
+    .main-section-img {
+        width: 100%; /* Ocupa todo el ancho de la pantalla */
+        max-height: 300px; /* No supera los 400px de altura */
+    }
+
+    .main-section-title {
+        font-size: 22px;
+        display: flex;
+        position: absolute;
+        bottom: 60%;
+    }
+
+    .main-section-p {
+        font-size: 14px;
+    }
+
+    .main-section-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .section-works-images h3 {
+        font-size: 30px;
+    }
+
+    .section-works-link p {
+        font-size: 16px;
+    }
+
+    .footer-section {
+        display: flex;
+        position: relative;
+    }
+
+    .first-footer-section {
+        display: flex;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .first-footer-section h3 {
+        font-size: 20px;
+    }
+
+    .second-footer-section {
+        display: flex;
+        position: absolute;
+        bottom: 5px;
+    }
+
+    .second-footer-section h3 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .link-wsp {
+        position: fixed;
+        left: 88%;
+    }
+    .main-section-img {
+        width: 100%; /* Ocupa todo el ancho de la pantalla */
+        max-height: 300px; /* No supera los 400px de altura */
+    }
+
+    .main-section-title {
+        font-size: 22px;
+        display: flex;
+        position: absolute;
+        bottom: 60%;
+    }
+
+    .main-section-p {
+        font-size: 14px;
+    }
+
+    .main-section-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .section-works-images h3 {
+        font-size: 30px;
+    }
+
+    .section-works-link p {
+        font-size: 16px;
+    }
+
+    .footer-section {
+        display: flex;
+        position: relative;
+    }
+
+    .first-footer-section {
+        display: flex;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .first-footer-section h3 {
+        font-size: 18px;
+    }
+
+    .first-footer-section p {
+        font-size: 14px;
+    }
+
+    .second-footer-section {
+        display: flex;
+        position: absolute;
+        bottom: 4px;
+    }
+
+    .second-footer-section h3 {
+        font-size: 18px;
+    }
+
+    .second-footer-section span {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .link-wsp {
+        position: fixed;
+        left: 85%;
+    }
+
+    .link-wsp i {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .header-nav-log-name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 50px;
+    }
+
+    .header-nav-log-name h2 {
+        font-size: 16px;
+    }
+
+    .header-nav-log-name img {
+        font-size: 10px
+    }
+    .main-section-img {
+        width: 100%; /* Ocupa todo el ancho de la pantalla */
+        max-height: 300px; /* No supera los 400px de altura */
+        display: flex;
+        position: relative;
+    }
+
+    .main-section-title {
+        font-size: 22px;
+        display: flex;
+        position: absolute;
+        bottom: 65%;
+    }
+
+    .main-section-p {
+        font-size: 13px;
+        display: flex;
+        position: absolute;
+        bottom: 45%;
+    }
+
+    .main-section-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .section-works-images h3 {
+        display: flex;
+        position: relative;
+        top: 20px;
+    }
+
+    .section-works-images span {
+        display: flex;
+        position: relative;
+        top: 1px;
+    }
+
+    .section-works-img {
+        padding: 6px;
+        margin-bottom: 5px;
+    }
+
+    .section-works-images h3 {
+        font-size: 30px;
+    }
+
+    .section-works-link p {
+        font-size: 16px;
+    }
+
+    .footer-section {
+        display: flex;
+        position: relative;
+    }
+
+    .first-footer-section {
+        display: flex;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .first-footer-section h3 {
+        font-size: 18px;
+    }
+
+    .first-footer-section p {
+        font-size: 14px;
+    }
+
+    .second-footer-section {
+        display: flex;
+        position: absolute;
+        bottom: 4px;
+    }
+
+    .second-footer-section h3 {
+        font-size: 18px;
+    }
+
+    .second-footer-section span {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
 
 
 
