@@ -44,6 +44,7 @@ video {
     left: 95%;
     top: 85%;
     z-index: 99;
+    cursor: pointer;
 }
 
 .link-wsp i {
@@ -151,6 +152,7 @@ header {
     border: none;
     border-radius: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .main-section-button:hover {
@@ -291,6 +293,7 @@ header {
         position: fixed;
         left: 95%;
     }
+
 }
 
 @media  screen and (max-width: 1050px) {
@@ -329,6 +332,10 @@ header {
         position: fixed;
         left: 92%;
     }
+
+    body video {
+        opacity: 0.4;
+    } 
 }
 
 @media screen and (max-width: 720px) {
