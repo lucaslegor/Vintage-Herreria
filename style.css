@@ -573,11 +573,11 @@ header {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
 
     .link-wsp {
         position: fixed;
-        left: 85%;
+        left: 80%;
     }
 
     .link-wsp i {
@@ -659,7 +659,7 @@ header {
     .first-footer-section {
         display: flex;
         position: relative;
-        bottom: 10px;
+        bottom: 12px;
     }
 
     .first-footer-section h3 {
