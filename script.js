@@ -8,3 +8,8 @@ document.querySelectorAll('.link-ref').forEach(enlace => {
     });
 });
 
+const input = document.getElementById('input-submit');
+
+if (input.value === 'Enviar') {
+    input.style.color = 'black'
+}
